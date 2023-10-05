@@ -1,7 +1,7 @@
 # overlord
 
 Execute one liners on multiple machines at the same time.
-This program works by setting up a http server and client listeners, the server side can then execute the command shell script to write commands into temporary storage that is hosted via http(s), the listeners connect to the server via http(s), grab the command.
+This program works by setting up a http server and client listeners, the server side can then execute the command shell script to write commands into temporary storage that is hosted via http(s), the listeners connect to the server via http(s) and grab / execute the command.
 
 Installation:
 Run genssl.sh
