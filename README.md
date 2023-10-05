@@ -31,7 +31,7 @@ can only execute one liners, because the clients are not acting with a full shel
 
 example: cd / ; pwd ; ls
 
-if you run a command that keeps open a loop while running, e.g., running a ping without a -c, you will be stuck in that look until you exit it on the client
+if you run a command that keeps open a loop while running, e.g., running a ping without a -c, you will be stuck in that loop until you exit it on the client
 
 if you exit the client script, then re enter it, it will re do the last command stored by the server.
 
