@@ -23,10 +23,13 @@ perl command_shell.pl
 any commands you type into the command shell will be picked up and executed by the clients.
 
 known issues
+
+
 can only execute one liners, because the clients are not acting with a full shell, so state isnt kept.
 (e.g.. if you pwd, then cd to /root, then pwd, you will not be in / root, instead, you will need to do your commands on one line including ;'s such as)
 example: cd / ; pwd ; ls
 
 if you run a command that keeps open a loop while running, e.g., running a ping without a -c, you will be stuck in that look until you exit it on the client
 
+if you exit the client script, then re enter it, it will re do the last command stored by the server.
 
